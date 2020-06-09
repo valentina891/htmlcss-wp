@@ -10,6 +10,10 @@
     clear: both;
 }
 
+body {
+    background-image: url(https://www.lifepetcare.it/wp-content/uploads/2016/09/legno-sfondo-3.jpg);
+}
+
 .container {
     margin: 10px;
 }
@@ -21,6 +25,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    border: 10px solid white;
 }
 
 .overlay {
@@ -42,9 +47,9 @@ header {
     font-family: 'Montserrat', sans-serif;
 }
 
-nav{
+nav {
     height: 50px;
-    background-color: #a2a2a2;
+    background-color: gray;
     text-align: center;
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -56,6 +61,7 @@ ul li {
     line-height: 50px;
     padding: 0 10px;
 }
+
 .row {
     padding: 10px 0;
 }
@@ -66,12 +72,31 @@ aside {
     float: left;
 }
 
-.contenitore {
-    height: 100%;
+aside .contenitore {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
 }
 
-aside .contenitore {
-    background-color: violet;
+aside span{
+    margin: 5px;
+    background-color: white;
+    color: orange;
+    float: left;
+}
+
+aside h1 {
+    color: gray;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5px;
+}
+
+aside p {
+    color: green;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+
 }
 
 aside .right {
@@ -81,7 +106,7 @@ aside .right {
 }
 
 main {
-    width: 60%;
+    width: 50%;
     height: 500px;
     padding: 0 10px;
     float: left;
