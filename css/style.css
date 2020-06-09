@@ -23,6 +23,15 @@ header {
     position: relative;
 }
 
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
 .titolo {
     color: white;
     text-align: center;
@@ -33,15 +42,20 @@ header {
     font-family: 'Montserrat', sans-serif;
 }
 
-img .overlay {
-    position: relative;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.6);
+nav{
+    height: 50px;
+    background-color: #a2a2a2;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
 }
 
+ul li {
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 10px;
+}
 .row {
     padding: 10px 0;
 }
