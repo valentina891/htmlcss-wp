@@ -15,8 +15,31 @@
 }
 
 header {
-    height: 200px;
-    background-color: yellow;
+    height: 400px;
+    background-image: url(https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/NorthCumberlandWMA_ByronJorjorian_4000x2200.jpg?crop=0,287,4992,2745&wid=4000&hei=2200&scl=1.248);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.titolo {
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+img .overlay {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .row {
