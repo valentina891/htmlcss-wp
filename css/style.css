@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    margin: 10px;
+}
+
+header {
+    height: 200px;
+    background-color: yellow;
+}
+
+.row {
+    padding: 10px 0;
+}
+
+aside {
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+
+.contenitore {
+    height: 100%;
+}
+
+aside .contenitore {
+    background-color: violet;
+}
+
+aside .right {
+    height: 200px;
+    background-color: violet;
+    margin-bottom: 10px;
+}
+
+main {
+    width: 60%;
+    height: 500px;
+    padding: 0 10px;
+    float: left;
+}
+
+main .contenitore {
+    background-color: purple;
+}
+
+footer {
+    height: 100px;
+    background-color: lightblue;
+}
