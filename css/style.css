@@ -85,7 +85,7 @@ aside span{
     float: left;
 }
 
-aside h1 {
+h1 {
     color: gray;
     display: inline-block;
     font-family: 'Roboto', sans-serif;
@@ -96,24 +96,35 @@ aside p {
     color: green;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
+    margin-bottom: 5px;
 
-}
-
-aside .right {
-    height: 200px;
-    background-color: violet;
-    margin-bottom: 10px;
 }
 
 main {
-    width: 50%;
+    width: 60%;
     height: 500px;
     padding: 0 10px;
     float: left;
 }
 
 main .contenitore {
-    background-color: purple;
+    background-color: white;
+}
+
+main h1 {
+    margin: 20px 10px;
+    font-size: 25px;
+}
+
+aside .right {
+    height: 200px;
+    margin-bottom: 10px;
+    color: black;
+
+}
+
+.right h1{
+    margin: 20px 10px;
 }
 
 footer {
