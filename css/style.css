@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    margin: 10px;
+    margin: auto 200px;
 }
 
 header {
@@ -68,7 +68,7 @@ ul li {
 
 aside {
     width: 20%;
-    height: 200px;
+    /* height: 200px; */
     float: left;
 }
 
@@ -76,6 +76,7 @@ aside .contenitore {
     background-color: white;
     padding: 5px;
     border-radius: 5px;
+    margin-bottom: 30px;
 }
 
 aside span{
@@ -102,13 +103,14 @@ aside p {
 
 main {
     width: 60%;
-    height: 500px;
-    padding: 0 10px;
+    padding: 0 50px;
     float: left;
 }
 
 main .contenitore {
     background-color: white;
+    padding: 20px;
+    border-radius: 5px;
 }
 
 main h1 {
@@ -116,18 +118,33 @@ main h1 {
     font-size: 25px;
 }
 
-aside .right {
-    height: 200px;
+main p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
     margin-bottom: 10px;
-    color: black;
-
+    line-height: 30px;
 }
+
 
 .right h1{
     margin: 20px 10px;
 }
 
+.right p {
+    color: black;
+    line-height: 30px;
+}
+
 footer {
     height: 100px;
-    background-color: lightblue;
+    background-color: white;
+    border-radius: 5px;
+    color: lightgrey;
+    text-align: center;
+    font-family: 'Roboto'
+}
+
+.social {
+    line-height: 50px;
+    padding: 20px;
 }
