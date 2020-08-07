@@ -11,7 +11,11 @@
 }
 
 body {
-    background-image: url(https://www.lifepetcare.it/wp-content/uploads/2016/09/legno-sfondo-3.jpg);
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(https://storage.needpix.com/rsynced_images/wood-grain-3893005_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .container {
@@ -20,7 +24,7 @@ body {
 
 header {
     height: 400px;
-    background-image: url(https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/NorthCumberlandWMA_ByronJorjorian_4000x2200.jpg?crop=0,287,4992,2745&wid=4000&hei=2200&scl=1.248);
+    background-image: url(https://storage.needpix.com/rsynced_images/twilight-2508847_1280.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -44,15 +48,13 @@ header {
     left: 50%;
     top: 50%;
     transform: translate(-50% , -50%);
-    font-family: 'Montserrat', sans-serif;
 }
 
 nav {
     height: 50px;
-    background-color: gray;
+    background-color: #952508;
     text-align: center;
     color: white;
-    font-family: 'Montserrat', sans-serif;
     font-size: 12px;
 }
 
@@ -63,88 +65,102 @@ ul li {
 }
 
 .row {
+    width: 100%;
     padding: 10px 0;
+    margin: 0 auto;
 }
 
 aside {
     width: 20%;
-    /* height: 200px; */
+    /* height: 300px; */
     float: left;
 }
 
-aside .contenitore {
+.aside-left,
+.aside-right {
     background-color: white;
-    padding: 5px;
     border-radius: 5px;
-    margin-bottom: 30px;
+    padding: 5px;
+    margin-bottom: 20px;
 }
 
-aside span{
-    margin: 5px;
-    background-color: white;
+.aside-left span {
+    font-size: 27px;
     color: orange;
+    background-color: white;
+    margin: 5px;
     float: left;
 }
 
-h1 {
-    color: gray;
+.aside-left h3,
+.aside-right h3 {
+    font-size: 20px;
     display: inline-block;
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 5px;
 }
 
-aside p {
-    color: green;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    margin-bottom: 5px;
+h1, h3 {
+    color: #4f6a78;
+    margin-bottom: 10px;
+}
 
+.aside-left p {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    color: #04b704;
+    margin-bottom: 12px;
 }
 
 main {
-    width: 60%;
-    padding: 0 50px;
+    width: 55%;
+    background-color: white;
+    padding: 18px;
+    margin: 0 23px;
+    border-radius: 5px;
     float: left;
 }
 
-main .contenitore {
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
+.main-content h1 {
+    font-size: 30px;
 }
 
-main h1 {
-    margin: 20px 10px;
-    font-size: 25px;
-}
-
-main p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+.main-content p {
+    font-size: 16px;
     margin-bottom: 10px;
     line-height: 30px;
 }
 
-
-.right h1{
-    margin: 20px 10px;
+.aside-right h3 {
+    margin: 20px 0 10px;
 }
 
-.right p {
+.aside-right p {
+    font-size: 14px;
     color: black;
-    line-height: 30px;
+    line-height: 27px;
+}
+
+.footer-content {
+    /* height: 100px; */
+    color: lightgrey;
+    background-color: white;
+    text-align: center;
+    margin-top: 60px;
+    border-radius: 5px;
 }
 
 footer {
-    height: 100px;
-    background-color: white;
-    border-radius: 5px;
-    color: lightgrey;
-    text-align: center;
-    font-family: 'Roboto'
+    margin-bottom: 30px;
+}
+
+h4 {
+    padding: 5px 0;
 }
 
 .social {
-    line-height: 50px;
+    /* line-height: 50px; */
+    width: 33.3%;
+    background-color: white;
     padding: 20px;
+    text-align: center;
+    float: left;
 }
